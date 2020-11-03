@@ -1,0 +1,2 @@
+#!/usr/bin/env fish
+helm upgrade -f override.yaml pihole mojo2600/pihole
