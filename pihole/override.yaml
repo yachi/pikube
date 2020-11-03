@@ -14,3 +14,9 @@ adlists:
   - https://adaway.org/hosts.txt
   - https://pgl.yoyo.org/adservers/serverlist.php
   - https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+
+DNS1: 8.8.8.8
+DNS2: 1.1.1.1
+
+doh:
+  enabled: true
