@@ -9,3 +9,8 @@ serviceUDP:
   annotations:
     metallb.universe.tf/allow-shared-ip: pihole-svc
   type: LoadBalancer
+
+adlists:
+  - https://adaway.org/hosts.txt
+  - https://pgl.yoyo.org/adservers/serverlist.php
+  - https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
