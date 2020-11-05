@@ -15,8 +15,8 @@ adlists:
   - https://pgl.yoyo.org/adservers/serverlist.php
   - https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 
-DNS1: 172.64.36.1
-DNS2: 172.64.36.2
+whitelist:
+  - app.bugsnag.com
 
 doh:
-  enabled: false
+  enabled: true
