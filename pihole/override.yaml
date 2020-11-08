@@ -14,14 +14,6 @@ adlists:
   - https://adaway.org/hosts.txt
   - https://pgl.yoyo.org/adservers/serverlist.php
   - https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
-  - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
-  - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
-  - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
-  - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
-  - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
-  - https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
-  - https://easylist.to/easylist/easylist.txt
-  - https://easylist.to/easylist/easyprivacy.txt
   - https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt
 
 whitelist:
