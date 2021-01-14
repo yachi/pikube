@@ -1,2 +1,2 @@
 #!/usr/bin/env fish
-helm delete pihole
+microk8s.helm3 delete pihole
