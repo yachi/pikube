@@ -1,0 +1,2 @@
+#!/usr/bin/env fish
+microk8s.helm3 upgrade -n wireguard -f override.yaml wireguard --repo https://place1.github.io/wg-access-server wg-access-server
