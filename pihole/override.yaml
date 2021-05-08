@@ -18,6 +18,7 @@ adlists:
 
 whitelist:
   - app.bugsnag.com
+  - "*.newrelic.com"
 
 doh:
   enabled: true
