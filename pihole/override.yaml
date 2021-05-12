@@ -20,9 +20,10 @@ whitelist:
   - app.bugsnag.com
   - api.bugsnag.com
   - concierge.analytics.console.aws.a2z.com
-
-regex:
   - "*.newrelic.com"
+
+# blacklist
+regex: {}
 
 doh:
   enabled: true
