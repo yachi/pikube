@@ -17,10 +17,12 @@ adlists:
   - https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt
 
 whitelist:
-  - app.bugsnag.com
-  - api.bugsnag.com
   - concierge.analytics.console.aws.a2z.com
-  - "*.newrelic.com"
+  - fonts.gstatic.com
+  - *.newrelic.com
+  - *.bugsnag.com
+  - *.nr-data.net
+  - *.segment.com
 
 # blacklist
 regex: {}
