@@ -19,11 +19,11 @@ adlists:
 whitelist:
   - concierge.analytics.console.aws.a2z.com
   - fonts.gstatic.com
-  - *.newrelic.com
-  - *.bugsnag.com
-  - *.nr-data.net
-  - *.segment.com
-  - *.split.io
+  - "*.newrelic.com"
+  - "*.bugsnag.com"
+  - "*.nr-data.net"
+  - "*.segment.com"
+  - "*.split.io"
 
 # blacklist
 regex: {}
