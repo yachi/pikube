@@ -23,6 +23,7 @@ whitelist:
   - *.bugsnag.com
   - *.nr-data.net
   - *.segment.com
+  - *.split.io
 
 # blacklist
 regex: {}
