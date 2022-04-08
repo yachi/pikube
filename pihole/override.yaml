@@ -12,9 +12,9 @@ serviceDns:
 
 adlists:
   - https://adaway.org/hosts.txt
-  - https://pgl.yoyo.org/adservers/serverlist.php
-  - https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
-  - https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt
+  - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  - https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+  - https://winhelp2002.mvps.org/hosts.txt
 
 whitelist:
   - concierge.analytics.console.aws.a2z.com
