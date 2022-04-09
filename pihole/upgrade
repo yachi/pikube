@@ -1,2 +1,3 @@
 #!/usr/bin/env fish
+microk8s.helm3 repo update
 microk8s.helm3 upgrade -n pihole -f override.yaml pihole mojo2600/pihole
