@@ -1,15 +1,3 @@
-serviceWeb:
-  loadBalancerIP: 10.0.11.55
-  annotations:
-    metallb.universe.tf/allow-shared-ip: pihole-svc
-  type: LoadBalancer
-
-serviceDns:
-  loadBalancerIP: 10.0.11.55
-  annotations:
-    metallb.universe.tf/allow-shared-ip: pihole-svc
-  type: LoadBalancer
-
 adlists:
   - https://adaway.org/hosts.txt
   - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
