@@ -1,5 +1,6 @@
 #!/usr/bin/env fish
-microk8s.helm3 repo add mojo2600 https://mojo2600.github.io/pihole-kubernetes/
-microk8s.helm3 repo update
-microk8s.kubectl create -f namespace.json
-microk8s.helm3 install -n pihole -f override.yaml pihole mojo2600/pihole
+helm repo add mojo2600 https://mojo2600.github.io/pihole-kubernetes/
+helm repo update
+kubectl create -f namespace.json
+helm install -n pihole -f override.yaml pihole mojo2600/pihole
+kubectl apply -n pihole -f ingress.yaml
